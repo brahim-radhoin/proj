@@ -12,6 +12,7 @@
 
 $--red: #c6321a;
 $--gray: #bbb;
+$--dark-gray: #1a1a1a;
 
 @mixin center {
 	display: flex;
@@ -49,7 +50,7 @@ header {
 	display: flex;
 	z-index: 5;
 	width: 100%;
-	background: #1a1a1a;
+	background: $--dark-gray;
 	@include logo();
 	nav {
 		width: 100%;
@@ -80,7 +81,7 @@ header {
 					height: 0.2rem;
 					position: absolute;
 					background-color: $--red;
-					transition: 0.3s ease-out;
+					transition: 0.3s;
 				}
 				a:hover::before {
 					left: 0;
@@ -93,7 +94,7 @@ header {
 
 footer {
 	border-top: 0.1rem solid $--red;
-	background: #1a1a1a;
+	background: $--dark-gray;
 	@include center();
 	height: 25rem;
 	overflow: hidden;
@@ -157,15 +158,14 @@ footer {
 				a::before {
 					content: "";
 					bottom: 0;
-					left: 50%;
+					left: 0%;
 					width: 0%;
 					height: 0.1rem;
 					position: absolute;
 					background-color: $--red;
-					transition: 0.3s ease-out;
+					transition: 0.3s;
 				}
 				a:hover::before {
-					left: 0;
 					width: 100%;
 				}
 			}

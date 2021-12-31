@@ -91,8 +91,8 @@ header nav ul li a::before {
   height: 0.2rem;
   position: absolute;
   background-color: #c6321a;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 header nav ul li a:hover::before {
@@ -212,17 +212,16 @@ footer #sec2 ul li a {
 footer #sec2 ul li a::before {
   content: "";
   bottom: 0;
-  left: 50%;
+  left: 0%;
   width: 0%;
   height: 0.1rem;
   position: absolute;
   background-color: #c6321a;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 footer #sec2 ul li a:hover::before {
-  left: 0;
   width: 100%;
 }
 
@@ -242,5 +241,25 @@ footer #sec3 .fContainer p .fas {
   width: 20px;
   text-align: center;
   color: #c6321a;
+}
+
+main {
+  margin: 5rem 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main aside {
+  width: 10%;
+  height: 100%;
+}
+
+main aside input {
+  accent-color: #c6321a;
+}
+
+main section {
+  width: 100%;
 }
 /*# sourceMappingURL=Desktop-Computers.css.map */

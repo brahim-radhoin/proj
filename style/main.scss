@@ -34,10 +34,10 @@ main {
 				cursor: pointer;
 				a {
 					img {
-						border: 1px solid $--red;
-						// border-bottom: 3px solid $--red;
+						border: 1px solid $--dark-gray;
 						max-width: 100%;
-						// margin: 1rem;
+
+						transition: all 0.5s ease;
 					}
 					.text {
 						overflow: hidden;
@@ -47,10 +47,13 @@ main {
 						height: 20%;
 						bottom: 0;
 						padding: 5% 0 5% 10%;
-						opacity: 0;
 						transition: all 0.5s ease;
+						opacity: 0;
 					}
 					&:hover {
+						img {
+							border: 1px solid $--red;
+						}
 						.text {
 							position: absolute;
 							bottom: 0;

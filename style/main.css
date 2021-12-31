@@ -91,8 +91,8 @@ header nav ul li a::before {
   height: 0.2rem;
   position: absolute;
   background-color: #c6321a;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 header nav ul li a:hover::before {
@@ -212,17 +212,16 @@ footer #sec2 ul li a {
 footer #sec2 ul li a::before {
   content: "";
   bottom: 0;
-  left: 50%;
+  left: 0%;
   width: 0%;
   height: 0.1rem;
   position: absolute;
   background-color: #c6321a;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 footer #sec2 ul li a:hover::before {
-  left: 0;
   width: 100%;
 }
 
@@ -293,8 +292,10 @@ main section #container .grid {
 }
 
 main section #container .grid a img {
-  border: 1px solid #c6321a;
+  border: 1px solid #1a1a1a;
   max-width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 main section #container .grid a .text {
@@ -305,9 +306,13 @@ main section #container .grid a .text {
   height: 20%;
   bottom: 0;
   padding: 5% 0 5% 10%;
-  opacity: 0;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  opacity: 0;
+}
+
+main section #container .grid a:hover img {
+  border: 1px solid #c6321a;
 }
 
 main section #container .grid a:hover .text {

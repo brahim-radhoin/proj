@@ -1,1 +1,16 @@
 @import "_base-style";
+
+main {
+	margin: 5rem 15rem;
+	display: flex;
+	aside {
+		width: 10%;
+		height: 100%;
+		input {
+			accent-color: $--red;
+		}
+	}
+	section {
+		width: 100%;
+	}
+}
