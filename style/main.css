@@ -7,6 +7,7 @@
   margin: 0;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
   color: #d6eff1;
 }
 
@@ -240,6 +241,17 @@ footer #sec3 .fContainer p {
 footer #sec3 .fContainer p .fas {
   width: 20px;
   text-align: center;
+  color: #c6321a;
+}
+
+footer #sec3 .fContainer p a {
+  color: #bbb;
+  margin-left: 0.3rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer #sec3 .fContainer p a:hover {
   color: #c6321a;
 }
 
