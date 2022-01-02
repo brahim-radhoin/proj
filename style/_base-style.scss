@@ -6,7 +6,7 @@
 	list-style: none;
 	font-family: Arial, Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
-	color: #d6eff1;
+	color: #e6eff0;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
@@ -53,6 +53,7 @@ header {
 	width: 100%;
 	background: $--dark-gray;
 	@include logo();
+
 	nav {
 		width: 100%;
 		margin: auto 0;

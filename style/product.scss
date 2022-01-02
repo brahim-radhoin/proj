@@ -1,0 +1,52 @@
+@import "_base-style";
+
+main {
+	margin: 10rem 15rem 5rem 15rem;
+	#product {
+		display: flex;
+		#left {
+			width: 40%;
+			#catalog {
+				img {
+					width: 18%;
+				}
+			}
+		}
+		#right {
+			animation: load-in 0.75s;
+			#product-name {
+				font-size: 1.7em;
+				margin-bottom: 1rem;
+				color: $--red;
+			}
+			p {
+				font-size: 1.08em;
+				line-height: 1.5;
+			}
+		}
+	}
+	#futures {
+		margin-top: 3rem;
+		animation: load-in 0.75s;
+		table {
+			border-collapse: collapse;
+			td {
+				border: 2px solid #050505;
+				padding: 1rem;
+				color: $--gray;
+			}
+		}
+	}
+}
+
+@keyframes load-in {
+	0% {
+		opacity: 0;
+		transform: rotateX(-10deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0);
+	}
+}
