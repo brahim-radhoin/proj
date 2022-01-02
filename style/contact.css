@@ -132,7 +132,7 @@ footer div .footerTitle {
 
 footer div .fContainer {
   position: relative;
-  top: 45%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -250,6 +250,7 @@ footer #sec3 .fContainer p a {
   margin-left: 0.3rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-weight: bold;
 }
 
 footer #sec3 .fContainer p a:hover {
@@ -352,7 +353,7 @@ body {
   color: #c6321a;
   margin: 0.5rem 5px;
   padding: 10px;
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 400;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;

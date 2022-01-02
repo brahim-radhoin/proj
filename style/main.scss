@@ -33,10 +33,10 @@ main {
 				position: relative;
 				cursor: pointer;
 				a {
+					width: 100%;
 					img {
 						border: 1px solid $--dark-gray;
 						max-width: 100%;
-
 						transition: all 0.5s ease;
 					}
 					.text {
@@ -65,7 +65,7 @@ main {
 			}
 		}
 		#promo {
-			margin-top: 1rem;
+			margin-top: 3rem;
 			width: 100%;
 		}
 	}

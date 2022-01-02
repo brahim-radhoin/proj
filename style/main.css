@@ -131,7 +131,7 @@ footer div .footerTitle {
 
 footer div .fContainer {
   position: relative;
-  top: 45%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -249,6 +249,7 @@ footer #sec3 .fContainer p a {
   margin-left: 0.3rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-weight: bold;
 }
 
 footer #sec3 .fContainer p a:hover {
@@ -303,6 +304,10 @@ main section #container .grid {
   cursor: pointer;
 }
 
+main section #container .grid a {
+  width: 100%;
+}
+
 main section #container .grid a img {
   border: 1px solid #1a1a1a;
   max-width: 100%;
@@ -335,7 +340,7 @@ main section #container .grid a:hover .text {
 }
 
 main section #promo {
-  margin-top: 1rem;
+  margin-top: 3rem;
   width: 100%;
 }
 
