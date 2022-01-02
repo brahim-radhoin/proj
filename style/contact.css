@@ -257,6 +257,32 @@ footer #sec3 .fContainer p a:hover {
   color: #c6321a;
 }
 
+@-webkit-keyframes load-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
+@keyframes load-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -264,6 +290,8 @@ body {
 }
 
 .container {
+  -webkit-animation: load-in 0.75s;
+          animation: load-in 0.75s;
   max-width: 800px;
   width: 100%;
   margin: auto;

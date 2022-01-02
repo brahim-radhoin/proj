@@ -4,6 +4,8 @@ main {
 	width: fit-content;
 	margin-top: 4rem;
 	#slider {
+		animation: load-in 0.75s;
+
 		overflow: hidden;
 		figure {
 			position: relative;
@@ -30,6 +32,7 @@ main {
 			gap: 1rem;
 			overflow: hidden;
 			.grid {
+				animation: load-in 0.75s;
 				position: relative;
 				cursor: pointer;
 				a {

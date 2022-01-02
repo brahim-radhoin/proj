@@ -256,6 +256,32 @@ footer #sec3 .fContainer p a:hover {
   color: #c6321a;
 }
 
+@-webkit-keyframes load-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
+@keyframes load-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
 main {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -264,6 +290,8 @@ main {
 }
 
 main #slider {
+  -webkit-animation: load-in 0.75s;
+          animation: load-in 0.75s;
   overflow: hidden;
 }
 
@@ -300,6 +328,8 @@ main section #container {
 }
 
 main section #container .grid {
+  -webkit-animation: load-in 0.75s;
+          animation: load-in 0.75s;
   position: relative;
   cursor: pointer;
 }

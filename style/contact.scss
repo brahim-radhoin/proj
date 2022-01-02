@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+	animation: load-in 0.75s;
 	max-width: 800px;
 	width: 100%;
 	margin: auto;
@@ -88,21 +89,3 @@ button {
 #contact button[type="submit"]:active {
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
-
-// #contact input:focus,
-// #contact textarea:focus {
-// 	outline: 0;
-// 	border: 1px solid #999;
-// }
-// ::-webkit-input-placeholder {
-// 	color: #888;
-// }
-// :-moz-placeholder {
-// 	color: #888;
-// }
-// ::-moz-placeholder {
-// 	color: #888;
-// }
-// :-ms-input-placeholder {
-// 	color: #888;
-// }
